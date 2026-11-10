@@ -367,3 +367,13 @@ A `CITATION.cff` file is included, so GitHub shows a "Cite this repository" butt
 ---
 
 <sub>Project started 2026-10-03 (the plug-in) · paper first published 2026-11-10 · Figures: `tools/figures.py` from the data in `data/` · PDF: `tools/make_pdf.py`</sub>
+
+## Research paper
+
+**[Putting Plastic on a Pedestal: Experimental methods of plastic waste reduction for 3D printing](paper/PAPER.md)** (version 1.0, first published 10 November 2026) · [PDF](paper/putting-plastic-on-a-pedestal.pdf)
+
+>-
+
+The paper's text and figures: [CC BY-SA 4.0](paper/LICENSE.md)
+
+**How to cite:** Armstrong, M. (2026). *Putting Plastic on a Pedestal: Experimental methods of plastic waste reduction for 3D printing.* Version 1.0, 10 November 2026. https://github.com/The-Dorkknight/putting-plastic-on-a-pedestal
