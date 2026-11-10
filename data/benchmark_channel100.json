@@ -1,0 +1,55 @@
+{
+ "_source": "cura-hybrid-supports docs/RESEARCH.md section 11 (0.6.0 development, before the cap stack); Cura 5.13 estimate for time; support filament from the G-code. Cura sparse = 5 % zigzag, no roof.",
+ "100": {
+  "Hybrid tethers": [
+   176,
+   6.8
+  ],
+  "Hybrid lobes": [
+   202,
+   7.2
+  ],
+  "Hybrid cone": [
+   229,
+   14.0
+  ],
+  "Hybrid branch": [
+   220,
+   14.5
+  ],
+  "Cura sparse (5 %, no roof)": [
+   223,
+   23.1
+  ],
+  "Cura tree": [
+   357,
+   28.0
+  ]
+ },
+ "150": {
+  "Hybrid tethers": [
+   222,
+   6.9
+  ],
+  "Hybrid lobes": [
+   252,
+   7.6
+  ],
+  "Hybrid cone": [
+   279,
+   14.5
+  ],
+  "Hybrid branch": [
+   269,
+   14.9
+  ],
+  "Cura sparse (5 %, no roof)": [
+   305,
+   34.7
+  ],
+  "Cura tree": [
+   467,
+   41.3
+  ]
+ }
+}

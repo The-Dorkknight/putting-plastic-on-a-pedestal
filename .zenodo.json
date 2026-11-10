@@ -1,0 +1,10 @@
+{
+  "title": "Putting Plastic on a Pedestal: Experimental methods of plastic waste reduction for 3D printing",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "A defensive publication describing hollow-tower pedestal supports with wide filleted lobe heads, a four-layer interface cap rewritten into the G-code, and wall-to-wall tether supports with a simulated span limit, implemented as the Cura plug-in Hybrid Supports. Physically untested: all results are from Cura 5.13 slices and a sag simulation.",
+  "creators": [{"name": "Armstrong, Matthew"}],
+  "license": "cc-by-sa-4.0",
+  "keywords": ["3D printing", "FDM", "support structures", "Cura", "defensive publication", "material reduction"],
+  "related_identifiers": [{"identifier": "https://github.com/The-Dorkknight/cura-hybrid-supports", "relation": "isSupplementTo", "scheme": "url"}]
+}

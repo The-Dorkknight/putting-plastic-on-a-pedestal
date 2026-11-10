@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use or build on this work, please cite it as below."
+type: report
+title: "Putting Plastic on a Pedestal: Experimental methods of plastic waste reduction for 3D printing"
+version: "1.0"
+date-released: 2026-11-10
+authors:
+  - family-names: Armstrong
+    given-names: Matthew
+    alias: The-Dorkknight
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/The-Dorkknight/putting-plastic-on-a-pedestal"
+url: "https://github.com/The-Dorkknight/putting-plastic-on-a-pedestal"
+abstract: >-
+  A defensive publication describing hollow-tower "pedestal" supports with wide filleted lobe heads, a
+  four-layer interface cap rewritten into the G-code, and wall-to-wall tether supports with a simulated
+  span limit, implemented as the Cura plug-in Hybrid Supports. Sliced (not printed) on 200 x 200 mm parts,
+  the pedestals use 64 to 84 % less support plastic than Cura's normal support. Physically untested.
+keywords:
+  - 3D printing
+  - FDM
+  - support structures
+  - Cura
+  - defensive publication
+  - material reduction

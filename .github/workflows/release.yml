@@ -1,0 +1,30 @@
+name: Release the paper
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the PDF from README.md
+        run: |
+          pip install markdown pillow playwright
+          python -m playwright install --with-deps chromium
+          python tools/make_pdf.py --out putting-plastic-on-a-pedestal-v1.0.pdf
+          sha256sum putting-plastic-on-a-pedestal-v1.0.pdf > SHA256SUMS.txt
+      - name: Create or update the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          [ "${GITHUB_REF_TYPE}" = "tag" ] || TAG="v1.0"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Putting Plastic on a Pedestal $TAG" \
+            --notes "The paper as one PDF. Physically untested: every result is from Cura slices and a simulation. See CHANGELOG.md." --target "${GITHUB_SHA}"
+          gh release upload "$TAG" putting-plastic-on-a-pedestal-v1.0.pdf SHA256SUMS.txt --clobber

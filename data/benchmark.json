@@ -1,0 +1,117 @@
+{
+ "U50": {
+  "bare_min": 230,
+  "towers": {
+   "Hybrid lobes": "4, reach 95 %",
+   "Hybrid cone": "2, reach 98 %",
+   "Hybrid branch": "8"
+  },
+  "Cura normal": {
+   "filament_m": 109.8,
+   "grams": 328,
+   "support_min": 342,
+   "job_min": 574
+  },
+  "Cura tree": {
+   "filament_m": 30.5,
+   "grams": 91,
+   "support_min": 89,
+   "job_min": 359
+  },
+  "Hybrid lobes": {
+   "filament_m": 39.4,
+   "grams": 118,
+   "support_min": 137,
+   "job_min": 374
+  },
+  "Hybrid cone": {
+   "filament_m": 27.0,
+   "grams": 80,
+   "support_min": 99,
+   "job_min": 343
+  },
+  "Hybrid branch": {
+   "filament_m": 83.2,
+   "grams": 248,
+   "support_min": 270,
+   "job_min": 573
+  }
+ },
+ "U150": {
+  "bare_min": 393,
+  "towers": {
+   "Hybrid lobes": "4, reach 95 %",
+   "Hybrid cone": "2, reach 96 %",
+   "Hybrid branch": "4, reach 95 %"
+  },
+  "Cura normal": {
+   "filament_m": 328.7,
+   "grams": 980,
+   "support_min": 1009,
+   "job_min": 1404
+  },
+  "Cura tree": {
+   "filament_m": 67.9,
+   "grams": 203,
+   "support_min": 202,
+   "job_min": 666
+  },
+  "Hybrid lobes": {
+   "filament_m": 51.5,
+   "grams": 154,
+   "support_min": 173,
+   "job_min": 583
+  },
+  "Hybrid cone": {
+   "filament_m": 87.1,
+   "grams": 260,
+   "support_min": 282,
+   "job_min": 720
+  },
+  "Hybrid branch": {
+   "filament_m": 98.6,
+   "grams": 294,
+   "support_min": 317,
+   "job_min": 786
+  }
+ },
+ "TABLE150": {
+  "bare_min": 206,
+  "towers": {
+   "Hybrid lobes": "4, reach 91 %",
+   "Hybrid cone": "2, reach 94 %",
+   "Hybrid branch": "4, reach 95 %"
+  },
+  "Cura normal": {
+   "filament_m": 363.5,
+   "grams": 1084,
+   "support_min": 1115,
+   "job_min": 1313
+  },
+  "Cura tree": {
+   "filament_m": 76.7,
+   "grams": 229,
+   "support_min": 228,
+   "job_min": 496
+  },
+  "Hybrid lobes": {
+   "filament_m": 56.8,
+   "grams": 169,
+   "support_min": 192,
+   "job_min": 400
+  },
+  "Hybrid cone": {
+   "filament_m": 99.3,
+   "grams": 296,
+   "support_min": 321,
+   "job_min": 570
+  },
+  "Hybrid branch": {
+   "filament_m": 107.4,
+   "grams": 320,
+   "support_min": 346,
+   "job_min": 617
+  }
+ },
+ "_source": "cura-hybrid-supports docs/RESEARCH.md section 16 (0.6.4-wip); Cura 5.13, Elegoo Neptune 4 profile, PLA 1.24 g/cm3; time = distance / feed rate, no acceleration"
+}
